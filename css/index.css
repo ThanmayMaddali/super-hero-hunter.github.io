@@ -1,0 +1,79 @@
+* {
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .search-container{
+    width:500px !important;
+    padding: 50px;
+  }
+  /* by using this we can set the marvel background image it will be applied to all the html files in this project*/
+  body{
+    background-image: url(../images/marvel.jpg);
+    height:100%;
+    background-size:cover;
+    background-attachment:fixed;
+    
+    background-repeat: repeat;
+  }
+  .result-section{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  .result-section h2 {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  #snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #a6445d;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  /* image in result section*/
+  .card-cont{
+    height:10rem;
+    width:10rem;
+    border-radius: 40px;
+
+
+  }
+  .card-cont img{
+    height:100%;
+    width:100%;
+    border-radius: 5rem;
+  }
+  
+/* image in about section*/
+  .card-cont2{
+    height:50vh;
+    width: 40vw;
+
+  }
+  .card-cont2 img{
+    height:100%;
+    width: 100%;
+    
+
+  }
+  .photo-data-cont{
+    margin-right: 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
